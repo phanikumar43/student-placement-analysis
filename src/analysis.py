@@ -11,7 +11,7 @@ import os
 # ------------------------------
 # 1. Load Dataset
 # ------------------------------
-DATA_PATH = "../data/student_data.csv"
+DATA_PATH = "data/student_data.csv"
 df = pd.read_csv(DATA_PATH)
 
 print("First 5 rows of dataset:")
@@ -64,7 +64,7 @@ print(df[["cgpa", "cgpa_category", "internship_experience"]].head())
 # ------------------------------
 # 5. Create Visuals Directory
 # ------------------------------
-VISUAL_PATH = "../visuals"
+VISUAL_PATH = "visuals"
 os.makedirs(VISUAL_PATH, exist_ok=True)
 
 # ------------------------------
@@ -110,7 +110,7 @@ plt.show()
 # ------------------------------
 # 7. SQL Database Integration
 # ------------------------------
-DB_PATH = "../data/student.db"
+DB_PATH = "data/student.db"
 conn = sqlite3.connect(DB_PATH)
 
 df.to_sql("students", conn, if_exists="replace", index=False)
