@@ -1,0 +1,11 @@
+gender,degree,cgpa,internships,skills,placed,salary
+Male,BTech,8.2,2,Python;SQL;Excel,Yes,600000
+Female,BTech,7.5,1,Python;Excel,Yes,450000
+Male,MCA,6.8,0,Java;SQL,No,0
+Female,BTech,9.1,3,Python;ML;SQL,Yes,900000
+Male,BSc,5.9,0,Excel,No,0
+Female,MCA,7.2,1,Python;SQL,Yes,400000
+Male,BTech,8.7,2,Java;Python,Yes,750000
+Female,BSc,6.2,0,Excel;PowerBI,No,0
+Male,BTech,7.9,1,Python;SQL,Yes,500000
+Female,BTech,8.4,2,Python;SQL;Tableau,Yes,650000
